@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lily's Bakery</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Lily's Bakery</h1>
+  <h6>Built 2084</h6>
+  <header>
+    <nav>
+      <ul>
+        <li>Location</li>
+        <li><a href="/Menu.html">Menu</a></li>
+        <li>History</li>
+        <li>Order/Catering</li>
+      </ul>
+    </nav>
+  </header>
+  <footer>
+    <nav>
+      <ul>
+        <li>219 W Campbell Dr | Baldwin Isle, CA</li>
+        <li>Copywrite 2119</li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
