@@ -1,39 +1,33 @@
-let userName = '';
-userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
+name = "Kay"
+question = "Will I find a new job?"
+answer = ""
 
-let userQuestion = 'Will I have a good day'
-  console.log('Will I have a good day?');
+import random
 
-let randomNumber = (Math.floor(Math.random() * 8));
-console.log(randomNumber);
+random_number = random.randint(1, 9)
 
-let eightBall = '';
+print(random_number)
 
-switch (randomNumber){
-  case 0:
-    eightBall = 'It is certain';
-    break;
-  case 1:
-    eightBall = 'It is decidedly so';
-    break;
-  case 2:
-    eightBall = 'Reply hazy try again';
-    break;
-  case 3:
-    eightBall = 'Cannot predict now';
-    break;
-  case 4:
-    eightBall = 'Do not count on it';
-    break;
-  case 5:
-    eightBall = 'My sources say no';
-    break;
-  case 6:
-    eightBall = 'Outlook not so good';
-    break;
-  case 7:
-    eightBall = 'Signs point to yes';
-    break;
-}
+if random_number == 1:
+  answer = "Yes-definetly"
+elif random_number == 2:
+  answer = "It is decidedly so"
+elif random_number == 3:
+  answer = "Without a doubt"
+elif random_number == 4:
+  answer = "Reply hazy, try again"
+elif random_number == 5:
+  answer = "Ask again later"
+elif random_number == 6:
+  answer = "Better not tell you now"
+elif random_number == 7:
+  answer = "My sources say no"
+elif random_number == 8:
+  answer = "Outlook not so good"
+elif random_number == 9:
+  answer = "Doubtful"
+else:
+  answer = "Error"
 
-console.log(`The Magic 8 Ball says ${eightBall}`)
+print(name + " : " + question)
+print("Magic 8-ball's answer: " + answer)
