@@ -1,4 +1,4 @@
-name = "Kay"
+name = ""
 question = "Will I find a new job?"
 answer = ""
 
@@ -29,5 +29,13 @@ elif random_number == 9:
 else:
   answer = "Error"
 
-print(name + " : " + question)
-print("Magic 8-ball's answer: " + answer)
+if name == "":
+  print("Question: " + question)
+else:
+  print(name + " : " + question)
+
+if question == "":
+  print("Do you have a question?")
+else:
+  print("Magic 8-ball's answer: " + answer)
+
